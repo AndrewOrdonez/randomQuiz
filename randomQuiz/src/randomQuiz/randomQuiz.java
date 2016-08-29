@@ -4,7 +4,7 @@ public class randomQuiz {
 static Scanner scan = new Scanner(System.in);
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//new comment
+		//old comment
 System.out.println("how many questions would you like to answer?");
 int questions = scan.nextInt();
 String apple = "";
