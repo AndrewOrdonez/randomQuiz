@@ -1,3 +1,4 @@
+package randomQuiz;
 import java.util.Scanner;
 public class randomQuiz {
 static Scanner scan = new Scanner(System.in);
