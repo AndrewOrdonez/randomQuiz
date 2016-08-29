@@ -9,7 +9,14 @@ System.out.println("how many questions would you like to answer?");
 int questions = scan.nextInt();
 String apple = "";
 for (int i = 0; i < questions;i++){
-	System.out.println(i);
+	int first = (int)(Math.random()*10);
+	int numberCorrect =0;
+	int last = (int)(Math.random()*10)+first;
+	String question1 ="what is the lowest possible number that '(int)(Math.random()*"+last+")+"+first+";' would generate";
+	String question2 ="what is the highest possible number that '(int)(Math.random()*"+last+")+"+first+";' would generate";
+
+	System.out.println("question1");
+	
 }
 
 	}
